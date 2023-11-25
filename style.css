@@ -54,3 +54,11 @@ img{
     top: 61%;
     transform: translate(-5%, 0%);
 }
+@media screen and (min-height:750px){
+    .NumeroENome{
+        top: 50%;
+    }
+    .form{
+        top: 56%;
+    }
+}
