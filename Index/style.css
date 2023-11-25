@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+header{
+    color: yellow;
+    display: none;
+}
+h1{
+    font-size: clamp(9px, 5vw, 50px);
+    font-family: Arimo;
+}
+#corpo{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(aquamarine, white);
+}
+.pokedex{
+    width: 100%;
+    max-width: 300px;
+    background: url(../imagem/pokedexm.png);
+    background-size: cover;
+}
+img{
+    width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+}
+#pokemon{
+    position: absolute;
+    width: 5%;
+    top: 32%;
+    height: 15%;
+    transform: translate(-13%, 10%);
+}
+.NumeroENome{
+    position: absolute;
+    top: 51%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+#status{
+    font-size: 100%;
+}
+.form{
+    position: absolute;
+    top: 61%;
+    transform: translate(-5%, 0%);
+}
