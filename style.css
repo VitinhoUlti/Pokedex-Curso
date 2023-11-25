@@ -5,6 +5,7 @@
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
+    overflow-y: hidden;
 }
 header{
     color: yellow;
@@ -59,6 +60,6 @@ img{
         top: 50%;
     }
     .form{
-        top: 56%;
+        top: 57%;
     }
 }
