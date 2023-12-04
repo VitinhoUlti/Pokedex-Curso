@@ -3,9 +3,8 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     box-sizing: border-box;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 header{
     color: yellow;
@@ -15,7 +14,7 @@ h1{
     font-size: clamp(9px, 5vw, 50px);
     font-family: Arimo;
 }
-#corpo{
+#corpo, #informaçoes{
     display: flex;
     width: 100%;
     height: 95vh;
@@ -54,6 +53,27 @@ img{
     position: absolute;
     top: 61%;
     transform: translate(-5%, 0%);
+}
+#informaçoes{
+    display: none;
+}
+#info{
+    margin-top: 1vh;
+}
+#valores{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 80vh;
+    min-width: 300px;
+    border-radius: 20px;
+    background-color: red;
+}
+.datavalores{
+    color: white;
+    font-size: 4vh;
 }
 @media screen and (min-height:750px){
     .NumeroENome{
